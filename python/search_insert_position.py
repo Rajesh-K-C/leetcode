@@ -21,7 +21,7 @@
 # -104 <= target <= 104
 
 class Solution:
-    def searchInsert(self, nums: list[int], target: int) -> int:
+    def searchInsert(self, nums: List[int], target: int) -> int:
         min = 0
         max = len(nums)-1
         while(min <= max):
